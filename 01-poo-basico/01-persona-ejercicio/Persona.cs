@@ -1,5 +1,5 @@
 public class Persona
 {
-    public string Nombre;
-    public string Apellido;
+    public string nombre;
+    public string apellido;
 }

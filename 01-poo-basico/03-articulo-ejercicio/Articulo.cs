@@ -1,15 +1,15 @@
 public class Articulo
 {
-    private string Marca;
-    private string Modelo;
+    private string marca;
+    private string modelo;
 
     public void SetMarca(string marca)
     {
-        Marca = marca;
+        this.marca = marca;
     }
 
     public void SetModelo(string modelo)
     {
-        Modelo = modelo;
+        this.modelo = modelo;
     }
 }

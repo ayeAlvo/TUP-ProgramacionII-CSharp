@@ -2,32 +2,32 @@ using System.Runtime.CompilerServices;
 
 public class Cine  
 {
-    private string Pelicula;
-    private string Horario;
+    private string pelicula;
+    private string horario;
 
     public void SetPelicula(string p)
     {
-        Pelicula = p;
+        pelicula = p;
     }
 
     public void SetHorario(string h)
     {
-        Horario = h;
+        horario = h;
     }
 
     public string GetPelicula()
     {
-        return Pelicula;
+        return pelicula;
     }
 
     public string GetHorario()
     {
-        return Horario;
+        return horario;
     }
 
     public string ObtenerCartelera()
     {
-        return $"La película '{Pelicula}' se proyecta a las {Horario}.";
+        return $"La película '{pelicula}' se proyecta a las {horario}.";
     }
 
 }
