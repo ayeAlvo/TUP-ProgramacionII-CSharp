@@ -66,3 +66,24 @@ Para cada caso, se debe imprimir:
 
 ---
 
+### Ejercicio 14 – Herramientas para drones
+
+Una empresa de seguridad utiliza drones capaces de transportar una cámara y una herramienta accionable a distancia.  
+El sistema de anclaje admite las siguientes herramientas:
+
+- **Sensor infrarrojo** – 250 g  
+- **Taser** – 300 g  
+- **Brazo robótico** – 500 g  
+
+El dron soporta **hasta 200 g sin penalizaciones**.  
+A partir de ese peso, por **cada 50 g adicionales** se aplica:
+
+- **−2% de velocidad** (base: 5 m/s)  
+- **−5% de altura máxima** (base: 100 m)
+
+#### Objetivos
+- Modelar las clases utilizando herencia.  
+- Crear una clase abstracta `Herramienta` y las herramientas derivadas.  
+- Implementar la clase `Dron` para calcular penalizaciones según el peso acoplado.  
+- Instanciar cada herramienta y asignarla al dron para mostrar los resultados.
+
