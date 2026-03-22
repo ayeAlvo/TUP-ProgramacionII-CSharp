@@ -66,7 +66,7 @@ Para cada caso, se debe imprimir:
 
 ---
 
-### Ejercicio 14 – Herramientas para drones
+## Ejercicio 14 – Herramientas para drones
 
 Una empresa de seguridad utiliza drones capaces de transportar una cámara y una herramienta accionable a distancia.  
 El sistema de anclaje admite las siguientes herramientas:
