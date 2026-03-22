@@ -87,3 +87,72 @@ A partir de ese peso, por **cada 50 g adicionales** se aplica:
 - Implementar la clase `Dron` para calcular penalizaciones según el peso acoplado.  
 - Instanciar cada herramienta y asignarla al dron para mostrar los resultados.
 
+---
+
+## 1️⃣5️⃣ Ejercicio 15 — Modelado de Flota Naval
+
+La Marina del reino de Caballito requiere un diseño que permita gestionar su flota de navíos.  
+El objetivo del ejercicio es analizar, modelar y representar las relaciones entre los distintos tipos de barcos, para luego implementar el código correspondiente.
+
+### 📦 Entidades y características
+
+Se identifican los siguientes navíos:
+
+### **Acorazado**
+- Flotabilidad  
+- Solidez  
+- Estabilidad  
+- Blindaje  
+- Potencia de fuego  
+- Velocidad crucero  
+- Nombre  
+
+### **Destructor**
+- Potencia de fuego  
+- Maniobrabilidad  
+- Estabilidad  
+- Flotabilidad  
+- Solidez  
+- Velocidad crucero  
+- Nombre  
+
+### **Barco Hospital (Sibelancia)**  
+- Excelente flotabilidad  
+- Estabilidad extrema  
+- Capacidad para 75 pacientes  
+- Nombre  
+
+### **Lanchas médicas (La gaucha y El gaucho)**  
+- Motor fuera de borda  
+- Alta flotabilidad  
+- Estabilidad baja  
+- Maniobrabilidad afectada  
+- Grúa de carga (300 kg)  
+- Nombre  
+
+---
+
+### 🧩 Relaciones del modelo
+
+- Se identifica un **tipo base** común: `Barco`, que engloba atributos compartidos como nombre, flotabilidad, solidez, estabilidad y velocidad crucero.
+- Los navíos específicos se representan como **subclases concretas**:
+  - `Acorazado`
+  - `Destructor`
+  - `BarcoHospital`
+  - `LanchaMedica`
+
+Cada subclase agrega sus propiedades particulares respetando los principios de herencia.
+
+---
+
+### 🧪 Implementación
+
+El ejercicio solicita:
+- Modelar las relaciones mediante un diagrama conceptual.
+- Implementar las clases correspondientes dentro de un módulo de dominio.
+- Crear instancias de cada barco, asignar sus valores y mostrarlos por pantalla usando métodos especializados.
+
+El código incluye:
+- Una clase abstracta `Barco` con los atributos base.
+- Subclases que extienden el comportamiento e incorporan propiedades específicas.
+- Métodos `MostrarDatos()` para exhibir las características de cada navío.
