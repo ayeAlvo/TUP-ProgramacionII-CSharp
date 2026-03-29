@@ -61,7 +61,7 @@ Crear instancias de Persona, Visitante y Guardia, asignar valores y mostrarlos p
 
 ---
 
-1️⃣2️⃣ Ejercicio 12 — Mejoras en Guardia y uso de objetos como parámetros
+1️⃣2️⃣ **Ejercicio 12 — Mejoras en Guardia y uso de objetos como parámetros**
 
 Modificaciones basadas en el ejercicio anterior:
 
@@ -77,4 +77,12 @@ Modificaciones basadas en el ejercicio anterior:
   - ✔ Facilita extensiones futuras.
   - ✘ Aumenta el acoplamiento al tipo Visitante.
 
+---
 
+**Extra Figuras geométricas**
+
+Desarrollar una aplicación que permita conocer el área y el perímetro de un triángulo, de un
+cuadrado y de un círculo. Cada figura posee un nombre y un color. La aplicación debe permitir
+obtener para cada una de las figuras su nombre, color, perímetro y área. Para probar esta
+aplicación, cree por lo menos 1 figura de cada tipo y muestre el resultado de invocar a sus
+métodos. Implemente la misma solución utilizando polimorfismo.
