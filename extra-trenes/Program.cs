@@ -42,7 +42,7 @@ deposito.AgregarFormacion(f1);
 // ===============================
 //   MOSTRAR FORMACIONES
 // ===============================
-Console.WriteLine("=== FORMACIONES EN DEPÓSITO ===");
+Console.WriteLine("=== FORMACIONES EN DEPOSITO ===");
 foreach (var f in deposito.ObtenerTodas())
 {
     Console.WriteLine(f);
@@ -57,31 +57,31 @@ foreach (var f in deposito.ObtenerTodas())
 Console.WriteLine("\n=== PRUEBAS ===");
 
 // Arrastre útil individual
-Console.WriteLine($"Arrastre útil {loco.Modelo}: {loco.ArrastreUtil} kg");
-Console.WriteLine($"Arrastre útil {loco2.Modelo}: {loco2.ArrastreUtil} kg");
+Console.WriteLine($"Arrastre util {loco.Modelo}: {loco.ArrastreUtil} kg");
+Console.WriteLine($"Arrastre util {loco2.Modelo}: {loco2.ArrastreUtil} kg");
 
 // Peso total de los vagones
 Console.WriteLine($"Peso total vagones F001: {f1.PesoTotalVagones} kg");
 
 // ¿Puede moverse?
-Console.WriteLine($"¿La formación puede moverse?: {f1.PuedeMoverse()}");
+Console.WriteLine($"¿La formacion puede moverse?: {f1.PuedeMoverse()}");
 
 // ¿Es eficiente?
-Console.WriteLine($"¿La formación es eficiente?: {f1.EsEficiente()}");
+Console.WriteLine($"¿La formacion es eficiente?: {f1.EsEficiente()}");
 
 // Empuje faltante
 Console.WriteLine($"Empuje faltante: {f1.EmpujeFaltante} kg");
 
-// Vagón más pesado por formación
-Console.WriteLine("\n=== Vagón más pesado por formación ===");
+// Vagon más pesado por formación
+Console.WriteLine("\n=== Vagon mas pesado por formacion ===");
 foreach (var v in deposito.ObtenerVagonesMasPesados())
 {
     Console.WriteLine(v);
 }
 
 Console.WriteLine("\n=== COMPLEJIDAD ===");
-Console.WriteLine($"¿Formación compleja?: {f1.EsCompleja()}");
-Console.WriteLine($"¿Depósito necesita conductor experto?: {deposito.NecesitaConductorExperimentado()}");
+Console.WriteLine($"¿Formacion compleja?: {f1.EsCompleja()}");
+Console.WriteLine($"¿Deposito necesita conductor experto?: {deposito.NecesitaConductorExperimentado()}");
 
 if (!deposito.LocomotorasDisponibles.Any())
 {

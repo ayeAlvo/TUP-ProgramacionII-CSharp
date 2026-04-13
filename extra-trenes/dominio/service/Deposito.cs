@@ -19,7 +19,7 @@ public class Deposito
         => _formaciones.FirstOrDefault(f => f.Codigo == codigo);
 
     // ------------------------------------
-    // 7. Vagón más pesado de cada formación
+    // 7. Vagon más pesado de cada formación
     // ------------------------------------
     public List<Vagon> ObtenerVagonesMasPesados()
     {
@@ -56,7 +56,7 @@ public class Deposito
         var formacion = _formaciones.FirstOrDefault(f => f.Codigo == codigoFormacion);
 
         if (formacion == null)
-            throw new Exception("Formación no encontrada");
+            throw new Exception("Formacion no encontrada");
 
         if (formacion.Estado == EstadoFormacion.EnServicio)
             return; // no intervenir si está trabajando

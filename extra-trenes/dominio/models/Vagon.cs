@@ -9,7 +9,7 @@ public abstract class Vagon
         Numero = numero;
     }
 
-    // Peso máximo total del vagón (abstracto)
+    // Peso máximo total del vagon (abstracto)
     public abstract int PesoMaximo { get; }
 
     public abstract string Tipo { get; }

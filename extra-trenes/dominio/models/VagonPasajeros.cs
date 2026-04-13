@@ -19,7 +19,7 @@ public class VagonPasajeros : Vagon
         AnchoUtil = anchoUtil;
     }
 
-    public override string Tipo => "Vagón de Pasajeros";
+    public override string Tipo => "Vagon de Pasajeros";
 
     public override string ToString()
         => $"{base.ToString()} - Capacidad: {CantidadPasajeros} pasajeros - Peso: {PesoMaximo} kg";

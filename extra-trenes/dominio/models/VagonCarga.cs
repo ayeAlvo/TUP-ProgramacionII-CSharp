@@ -13,8 +13,8 @@ public class VagonCarga : Vagon
         CargaMaximaKg = cargaMaximaKg;
     }
 
-    public override string Tipo => "Vagón de Carga";
+    public override string Tipo => "Vagon de Carga";
 
     public override string ToString()
-        => $"{base.ToString()} - Carga máx: {CargaMaximaKg} kg - Peso máx: {PesoMaximo} kg";
+        => $"{base.ToString()} - Carga max: {CargaMaximaKg} kg - Peso max: {PesoMaximo} kg";
 }
