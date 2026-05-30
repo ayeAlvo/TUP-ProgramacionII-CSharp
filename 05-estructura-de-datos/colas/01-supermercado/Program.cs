@@ -17,5 +17,5 @@ Console.WriteLine("\nAtendiendo clientes:");
 while (sistema.HayClientes())
 {
     Cliente cliente = sistema.AtenderCliente();
-    Console.WriteLine("Atendido: " + cliente);
+    Console.WriteLine("Atendido: " + Cliente.nombre);
 }
