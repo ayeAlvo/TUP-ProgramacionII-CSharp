@@ -1,0 +1,8 @@
+```
+AbstractFactory
+    △
+ ┌──┴─────┐
+ │        │
+FantasyFactory
+SciFiFactory
+```
