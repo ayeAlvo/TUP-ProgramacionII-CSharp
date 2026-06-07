@@ -26,5 +26,6 @@ Console.WriteLine();
 Console.WriteLine("Cuarto procesamiento");
 Console.WriteLine("Cambio de estrategia por default");
 procesador.CambiarProcesamiento(new ProcesamientoComprimido());
+// procesador.CambiarProcesamiento(null); // esto va a tirar una excepción porque la estrategia no puede ser nula
 procesador.Procesar(documento); 
 
