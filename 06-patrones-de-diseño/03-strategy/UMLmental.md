@@ -1,10 +1,9 @@
 ```
-           IDescuento
+           IDescuento ───── Carrito
                 △
       ┌─────────┼─────────┐
       │         │         │
  Normal   Premium     Gold
-
-
-Carrito ───── IDescuento
 ```
+
+`OCP + DIP + ISP`
