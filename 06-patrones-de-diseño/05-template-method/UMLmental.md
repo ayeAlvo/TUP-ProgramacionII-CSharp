@@ -13,3 +13,5 @@ Solo personalizo algunos pasos.
         │             │
       Te          Cafe
 ```
+
+`OCP + LSP`

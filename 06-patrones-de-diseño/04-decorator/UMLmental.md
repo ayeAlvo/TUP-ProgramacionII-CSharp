@@ -12,3 +12,5 @@
           │               │
      LecheDecorator   ChocolateDecorator
 ```
+
+`OCP + DIP`

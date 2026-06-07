@@ -6,3 +6,5 @@ AbstractFactory
 FantasyFactory
 SciFiFactory
 ```
+
+`OCP + DIP + LSP`

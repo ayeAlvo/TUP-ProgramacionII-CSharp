@@ -9,3 +9,6 @@
 | + ObtenerInstancia()          |
 +-------------------------------+
 ```
+
+`(no tiene una relación fuerte
+con un principio SOLID particular)`
