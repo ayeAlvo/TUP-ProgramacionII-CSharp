@@ -15,7 +15,7 @@ OCP: es posible agregar nuevas estrategias de procesamiento sin modificar las cl
 
 Separe las responsabilidades entre Documento y ProcesadorDocumento para respetar SRP. Documento representa la información del documento, mientras que ProcesadorDocumento se encarga de aplicar las estrategias de procesamiento. (primero lo habia hecho todo en una clase)
 
-ISP: la interfaz IProcesamiento es pequeña y específica, ya que solamente obliga a implementar el método necesario para procesar un documento.
+ISP: la interfaz IProcesamiento solamente obliga a implementar el método necesario para procesar un documento.
 
 LSP: las clases que implementan IProcesamiento pueden usarse en lugar de la interfaz sin alterar el funcionamiento esperado, porque todas cumplen el contrato de Procesar(documento).
 

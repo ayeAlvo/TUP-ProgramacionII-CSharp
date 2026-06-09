@@ -16,6 +16,6 @@ public class Documento
 
     public string GetContenido()
     {
-        return this.contenido;
+        return contenido;
     }
 }
