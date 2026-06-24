@@ -4,6 +4,8 @@
 
 Convierte la interfaz de una clase en otra interfaz esperada por el cliente.
 
+Se usa cuando tenés una clase que ya existe, funciona, pero tiene una interfaz distinta a la que tu sistema necesita.
+
 ## 🧉 A lo Ayelen
 ```
 Tengo algo que funciona.
@@ -70,3 +72,10 @@ Adapter:
 Facade:
 
 - Hace simple
+
+## Frase para hoja
+Uso Adapter porque necesito que una clase existente con una interfaz incompatible pueda ser utilizada por el sistema mediante la interfaz esperada. El adaptador implementa la interfaz que el cliente espera y, por dentro, llama al método de la clase adaptada.
+
+### Regla mental:
+
+`Adapter = traductor`
