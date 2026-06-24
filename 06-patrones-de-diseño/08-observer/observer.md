@@ -3,6 +3,10 @@
 ## 📖 Frase de manual (PDF)
 Define una dependencia uno a muchos entre objetos, de manera que cuando un objeto cambia de estado, todos sus dependientes son notificados automáticamente.
 
+Observer sirve cuando un objeto observado cambia de estado y varios objetos interesados deben enterarse automáticamente.
+
+En el PDF aparece como un patrón donde el observado guarda observadores con `attach()`, los saca con `detach()` y les avisa con `notify()`; los observadores implementan `update()`.
+
 ## 🧉 A lo Ayelen
 ```
 Tengo un objeto importante.
